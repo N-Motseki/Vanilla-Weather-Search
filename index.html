@@ -3,34 +3,44 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
     <title>Vanilla-Weather-Search</title>
   </head>
   <body>
-    <header>
-      <form>
-        <input type="search" placeholder="Enter city.." required />
-        <input type="submit" value="search" />
-      </form>
-    </header>
-    <main>
-      <div>
-        <h1>Cape Town</h1>
-        <p>
-          Tuesday 14:49pm, scattered clouds<br />
-          Humidity:66%, Wind:3.13km/h
-        </p>
-      </div>
-      <div>⛅12℃</div>
-    </main>
-    <footer>
-      This project was coded by
-      <a href="https://github.com/N-Motseki" target="_blank">N Motseki</a> is on
-      <a
-        href="https://github.com/N-Motseki/Vanilla-Weather-Search"
-        target="_blank"
-        >GitHub</a
-      >
-      and hosted<a href="" target="_blank">Netlify</a>
-    </footer>
+    <div class="weather-app">
+      <header>
+        <form>
+          <input type="search" placeholder="Enter city.." required />
+          <input type="submit" value="search" />
+        </form>
+      </header>
+      <main>
+        <div>
+          <h1>Cape Town</h1>
+          <p>
+            Tuesday 14:49pm, scattered clouds<br />
+            Humidity:66%, Wind:3.13km/h
+          </p>
+        </div>
+        <div>⛅12℃</div>
+      </main>
+      <footer>
+        This project was coded by
+        <a href="https://github.com/N-Motseki" target="_blank">N Motseki</a> is
+        on
+        <a
+          href="https://github.com/N-Motseki/Vanilla-Weather-Search"
+          target="_blank"
+          >GitHub</a
+        >
+        and hosted<a href="" target="_blank">Netlify</a>
+      </footer>
+    </div>
   </body>
 </html>
